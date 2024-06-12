@@ -12,7 +12,7 @@ export default function Block({ value, label }) {
         "service-block",
       )}
     >
-      <div className="font-thin text-sm">{value === undefined || value === null ? "-" : value}</div>
+      <div className="font-thin text-sm">{value === undefined || value === null ? "" : value}</div>
       <div className="font-bold text-xs uppercase">{t(label)}</div>
     </div>
   );

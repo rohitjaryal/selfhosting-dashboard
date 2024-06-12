@@ -113,6 +113,7 @@ import whatsupdocker from "./whatsupdocker/widget";
 import xteve from "./xteve/widget";
 import urbackup from "./urbackup/widget";
 import romm from "./romm/widget";
+import pm2 from "./pm2/widget";
 
 const widgets = {
   adguard,
@@ -233,6 +234,7 @@ const widgets = {
   wgeasy,
   whatsupdocker,
   xteve,
+  pm2
 };
 
 export default widgets;
